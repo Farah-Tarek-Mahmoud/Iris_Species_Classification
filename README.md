@@ -1,22 +1,36 @@
-Data Science Projects Repository (CognoRise InfoTech Projects)
-Welcome to my Data Science Projects Repository. This repository showcases three significant projects I’ve worked on as part of my journey as a Data Scientist. Each project addresses different areas of machine learning and data analysis, utilizing various techniques to deliver insightful solutions.
-These projects were completed as part of my professional experience at CognoRise InfoTech and my broader work in tech.
+# Iris Species Classification and Clustering - README
 
-Projects Included:
+## Project Overview
+This project involves both classification and clustering on the Iris dataset. The primary objective is to classify iris species based on sepal and petal dimensions, as well as to explore unsupervised clustering techniques.
 
-1. Iris Species Classification & Clustering
-The classic Iris dataset project focused on both supervised (classification) and unsupervised (clustering) learning to classify iris species and analyze their similarities.
+---
 
-Key Steps:
-EDA and Visualization: Performed comprehensive data visualization (using Seaborn and Matplotlib) to understand the relationships between sepal and petal dimensions across species.
-Classification: Algorithms like Logistic Regression, and KMeans were used for classification.
-Clustering: Implemented K-Means Clustering to group the data into species clusters and compared these results with actual species labels.
-Evaluation: Assessed classification accuracy and cluster separation using metrics such as silhouette score and confusion matrix.
-This project showcased a strong understanding of both clustering and classification approaches, reinforcing the value of unsupervised learning in exploratory data analysis.
+### Key Features of the Dataset
+- **Features**: Sepal Length, Sepal Width, Petal Length, Petal Width
+- **Target Variable**: Species (Setosa, Versicolor, Virginica)
 
-Conclusion
-These projects underscore my passion for data science and my proficiency in tackling various machine-learning challenges. Through proper data preprocessing, model building, and evaluation techniques, I have successfully delivered insights and accurate predictions across different domains. Working at CognoRise InfoTech and in my broader tech journey, I’ve had the opportunity to apply cutting-edge techniques to solve real-world problems.
+---
 
-Feel free to explore the repository to see the code and datasets used for each project. Contributions and suggestions are always welcome!
+## Project Workflow
 
-Author: Farah Tarek Mossad
+### 1. Data Exploration
+- Visualized relationships between features using scatter plots and pairplots.
+- Identified clear separability between species based on petal dimensions.
+
+### 2. Classification
+- Models Used:
+  - Logistic Regression
+  - K-Nearest Neighbors (KNN)
+  - Support Vector Machine (SVM)
+- Performance Evaluation:
+  - Achieved ~97% accuracy using SVM.
+
+### 3. Clustering
+- **K-Means Clustering**:
+  - Determined optimal clusters using the elbow method.
+  - Compared clusters with true labels to evaluate accuracy.
+
+---
+
+## Conclusion
+This project demonstrates the effectiveness of both supervised and unsupervised learning approaches for species identification, highlighting the strength of SVM in classification tasks.
